@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { 
-  Plus, Trash2, ChevronRight, Image as ImageIcon, 
-  FileText, ArrowLeft, X, TrendingUp, Search, 
-  AlertCircle, Target, ShieldAlert, Navigation 
+  Plus, Trash2, ChevronRight, 
+  FileText, ArrowLeft, TrendingUp, Search, 
+  AlertCircle
 } from 'lucide-react';
 
 const STORAGE_KEY = 'tg_stock_watchlist_v1';
