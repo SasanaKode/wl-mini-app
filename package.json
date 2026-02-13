@@ -2,7 +2,6 @@
     "name": "tg-stock-conviction-app",
     "version": "1.0.0",
     "private": true,
-    "homepage": "https://www.google.com/search?q=https://username.github.io/repo-name",
     "dependencies": {
         "lucide-react": "^0.284.0",
         "react": "^18.2.0",
@@ -12,7 +11,6 @@
         "tailwind-merge": "^1.14.0"
     },
     "devDependencies": {
-        "gh-pages": "^6.0.0",
         "tailwindcss": "^3.3.0",
         "autoprefixer": "^10.4.14",
         "postcss": "^8.4.21"
@@ -21,9 +19,7 @@
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
-        "eject": "react-scripts eject",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "eject": "react-scripts eject"
     },
     "eslintConfig": {
         "extends": [
